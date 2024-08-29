@@ -5,31 +5,31 @@ body {
 
 h1 {
   font-size: 32px;
-  line-height: 180%;
+  line-height: 150%;
   font-weight: bolder;
 }
 
 h2 {
   font-size: 24px;
-  line-height: 180%;
+  line-height: 150%;
   font-weight: 300;
 }
 
 p {
   font-size: 16px;
-  line-height: 180%;
+  line-height: 150%;
   font-weight: normal;
 }
 
 strong {
   font-size: 16px;
-  line-height: 180%;
+  line-height: 150%;
   font-weight: bold;
 }
 
 small {
   font-size: 14px;
-  line-height: 180%;
+  line-height: 150%;
   font-weight: regular;
 }
 
