@@ -5,31 +5,31 @@ body {
 
 h1 {
   font-size: 32px;
-  line-height: 150%;
+  line-height: 180%;
   font-weight: bolder;
 }
 
 h2 {
   font-size: 24px;
-  line-height: 150%;
-  font-weight: bolder;
+  line-height: 180%;
+  font-weight: 300;
 }
 
 p {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 180%;
   font-weight: normal;
 }
 
 strong {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 180%;
   font-weight: bold;
 }
 
 small {
   font-size: 14px;
-  line-height: 150%;
+  line-height: 180%;
   font-weight: regular;
 }
 
@@ -61,7 +61,7 @@ header nav ul li {
   margin-left: 2rem;
 }
 header nav ul li a {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: regular;
 }
 
@@ -70,8 +70,8 @@ main .welcome-cover {
   background-color: #FFE77D;
   padding: 6rem 6rem;
 }
-main .welcome-cover h1 {
-  max-width: 50%;
+main .welcome-cover h1, main .welcome-cover h2 {
+  max-width: 45%;
 }
 
 a:link {
@@ -97,32 +97,29 @@ a:active {
 /* Small devices (phones, 576px and down) */
 @media (max-width: 575.98px) {
   /* CSS styles for small devices */
+  main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  main .welcome-cover {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    border-radius: 0px;
+  }
+  main .welcome-cover h1, main .welcome-cover h2 {
+    max-width: 100%;
+  }
   header {
     flex-wrap: wrap;
     row-gap: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-  }
-  header * {
-    flex-grow: 1;
   }
   header nav ul {
-    display: flex;
     justify-content: flex-start;
     flex-grow: 0;
-  }
-  header nav ul li {
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin-left: 2rem;
-  }
-  header nav ul li a {
-    font-size: 20px;
-    font-weight: regular;
   }
   header nav ul li:first-child {
     margin-left: 0rem;
@@ -131,32 +128,29 @@ a:active {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* CSS styles for medium devices */
+  main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  main .welcome-cover {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    border-radius: 0px;
+  }
+  main .welcome-cover h1, main .welcome-cover h2 {
+    max-width: 100%;
+  }
   header {
     flex-wrap: wrap;
     row-gap: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-  }
-  header * {
-    flex-grow: 1;
   }
   header nav ul {
-    display: flex;
     justify-content: flex-start;
     flex-grow: 0;
-  }
-  header nav ul li {
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin-left: 2rem;
-  }
-  header nav ul li a {
-    font-size: 20px;
-    font-weight: regular;
   }
   header nav ul li:first-child {
     margin-left: 0rem;
