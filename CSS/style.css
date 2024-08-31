@@ -66,12 +66,27 @@ header nav ul li a {
 }
 
 main .welcome-cover {
-  border-radius: 12px;
   background-color: #FFE77D;
-  padding: 6rem 6rem;
+  padding: 4rem 4rem;
 }
 main .welcome-cover h1, main .welcome-cover h2 {
   max-width: 45%;
+}
+main .designer-profile {
+  display: flex;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+main .designer-profile .designer-left-column, main .designer-profile .designer-right-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 45%;
+  column-gap: 2rem;
+}
+main .designer-profile .designer-left-column div, main .designer-profile .designer-right-column div {
+  flex: 1 0 45%;
+  flex-wrap: wrap;
 }
 
 a:link {
